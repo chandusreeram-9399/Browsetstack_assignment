@@ -8,7 +8,7 @@ PyTest Integration with BrowserStack using SDK.
 
 ## Setup
 
-* Clone the repo with `git clone -b sdk https://github.com/browserstack/pytest-browserstack.git`
+* Clone the repo with `https://github.com/chandusreeram-9399/Browsetstack_assignment.git`
 * It is recommended to use a virtual environment to install dependencies. To create a virtual environment:
   ```
   python3 -m venv env
@@ -27,7 +27,7 @@ PyTest Integration with BrowserStack using SDK.
 ## Run a sample local test:
 * To run the sample local test across platforms defined in the configuration file, you just need to set `browserstackLocal` key as true in the `browserstack.yml` file and run:
 ```
-  browserstack-sdk pytest -s tests/bstack-local-test.py
+  browserstack-sdk pytest -s tests/remote_test.py
 ```
 
 ## Notes

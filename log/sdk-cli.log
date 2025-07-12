@@ -1,0 +1,150 @@
+2025-07-12T15:05:32.025Z CLI info [main]     Server listening on port: 5400
+2025-07-12T15:05:32.483Z CLI info     Config : {"userName":"sreeramchandrase_cZsX8z","accessKey":"pynjtZ7scPWeWvGqgWsc","framework":"pytest","platforms":[{"os":"Windows","osVersion":11,"browserName":"Chrome","browserVersion":131},{"os":"Windows","osVersion":11,"browserName":"Edge","browserVersion":133},{"os":"Windows","osVersion":10,"browserName":"Chrome","browserVersion":130}],"parallelsPerPlatform":5,"browserstackLocal":true,"buildName":"chandra-sekhar-builder","projectName":"BrowserStack-SDE-CE"}
+2025-07-12T15:05:33.928Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Starting testhub from 3844:0
+2025-07-12T15:05:33.930Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [60b16123-ab62-4668-bc5c-e623cf93ae1f]  startBuild: payload=
+
+{"started_at":"2025-07-12T15:05:33.930Z","host_info":{"hostname":"DESKTOP-IH2NBIV","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"5ea669f0158ef8cae48c9d096e74301939d6cbf0","short_sha":"5ea669f015","branch":"main","tag":null,"committer":"GitHub <noreply@github.com>","committer_date":"1720014795","author":"Karan Shah <64479353+karanshah-browserstack@users.noreply.github.com>","author_date":"1720014795","commit_message":"Merge pull request #28 from browserstack/merge_sdk_to_main","root":"C:\\Users\\LENOVO\\pytest-browserstack","common_git_dir":"C:\\Users\\LENOVO\\pytest-browserstack\\.git","worktree_git_dir":"C:\\Users\\LENOVO\\pytest-browserstack\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/chandusreeram-9399/Browsetstack_assignment.git"}]},"project_name":"BrowserStack-SDE-CE","name":"chandra-sekhar-builder","build_identifier":"#1","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"7.4.4","sdkVersion":"1.25.10","cliVersion":"1.5.6","language":"python","testFramework":{"name":"selenium","version":"4.11.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-12T15:05:33.931Z CLI info  [sreeramchandrase_cZsX8z]   [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-12T15:05:35.340Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [60b16123-ab62-4668-bc5c-e623cf93ae1f]  startBuild: response=so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf
+2025-07-12T15:05:35.347Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-12T15:05:57.646Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-12T15:05:59.158Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-12T15:05:59.159Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-12T15:05:59.163Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-12T15:07:07.413Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:13.899Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:29.769Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:42.072Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:42.966Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:43.785Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:44.787Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:48.294Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:53.752Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:07:56.007Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:08:01.578Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:08:01.771Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:08:02.177Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:08:03.932Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:08:04.862Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  initSession: localIdentifier=Jul_12_2035_DESKTOP-IH2NBIV_xrld pid=27320
+2025-07-12T15:10:40.036Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-12T15:10:41.033Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  stopBuild: so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf request={"finished_at":"2025-07-12T15:10:40.034Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-12T15:10:41.040Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-12T15:10:41.043Z CLI info [observability:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Visit https://observability.browserstack.com/builds/so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf to view build report, insights, and many more debugging information all at one place!
+2025-07-12T15:10:41.070Z CLI info [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:10:41.074Z CLI error [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-12T15:10:41.081Z CLI info [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Received graceful signal termination, performing cleanup
+2025-07-12T15:10:41.088Z CLI info [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:10:41.091Z CLI error [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-12T15:10:41.092Z CLI info  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-12T15:10:41.976Z CLI error [testhub:module]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  stopBuild: request={"finished_at":"2025-07-12T15:10:41.092Z","finished_metadata":[],"custom_metadata":null} error=HTTPError: Response code 401 (Unauthorized)
+    at _0x28398e.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12T15:10:41.977Z CLI error  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  error invoking callback for eventName: {"name":"HTTPError","code":"ERR_NON_2XX_3XX_RESPONSE","timings":{"start":1752333041099,"socket":1752333041100,"lookup":1752333041104,"connect":1752333041375,"secureConnect":1752333041659,"upload":1752333041660,"response":1752333041972,"end":1752333041974,"phases":{"wait":1,"dns":4,"tcp":271,"tls":284,"request":1,"firstByte":312,"download":2,"total":875}}}
+2025-07-12T15:10:41.977Z CLI error  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  HTTPError: Response code 401 (Unauthorized)
+    at _0x28398e.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12T15:10:41.993Z CLI info [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:10:41.993Z CLI error [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-12T15:10:41.995Z CLI info [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:10:41.995Z CLI error [main]  [sreeramchandrase_cZsX8z]  [so9ui0jxfcm52ffsgmcz8az37k9a5ept6bqqazcf]  [60b16123-ab62-4668-bc5c-e623cf93ae1f]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-12T15:22:05.071Z CLI info [main]     Server listening on port: 5400
+2025-07-12T15:22:05.246Z CLI info     Config : {"userName":"sreeramchandrase_cZsX8z","accessKey":"pynjtZ7scPWeWvGqgWsc","framework":"pytest","platforms":[{"os":"Windows","osVersion":11,"browserName":"Chrome","browserVersion":131},{"os":"Windows","osVersion":11,"browserName":"Edge","browserVersion":133},{"os":"Windows","osVersion":10,"browserName":"Chrome","browserVersion":130}],"parallelsPerPlatform":5,"browserstackLocal":true,"buildName":"chandra-sekhar-builder","projectName":"BrowserStack-SDE-CE"}
+2025-07-12T15:22:06.048Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Starting testhub from 5948:0
+2025-07-12T15:22:06.057Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [7cb0c3b2-a843-40df-80ff-7f66d518852d]  startBuild: payload=
+
+{"started_at":"2025-07-12T15:22:06.055Z","host_info":{"hostname":"DESKTOP-IH2NBIV","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"5ea669f0158ef8cae48c9d096e74301939d6cbf0","short_sha":"5ea669f015","branch":"main","tag":null,"committer":"GitHub <noreply@github.com>","committer_date":"1720014795","author":"Karan Shah <64479353+karanshah-browserstack@users.noreply.github.com>","author_date":"1720014795","commit_message":"Merge pull request #28 from browserstack/merge_sdk_to_main","root":"C:\\Users\\LENOVO\\pytest-browserstack","common_git_dir":"C:\\Users\\LENOVO\\pytest-browserstack\\.git","worktree_git_dir":"C:\\Users\\LENOVO\\pytest-browserstack\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/chandusreeram-9399/Browsetstack_assignment.git"}]},"project_name":"BrowserStack-SDE-CE","name":"chandra-sekhar-builder","build_identifier":"#2","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"7.4.4","sdkVersion":"1.25.10","cliVersion":"1.5.6","language":"python","testFramework":{"name":"selenium","version":"4.11.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-12T15:22:06.058Z CLI info  [sreeramchandrase_cZsX8z]   [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-12T15:22:07.883Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]   [7cb0c3b2-a843-40df-80ff-7f66d518852d]  startBuild: response=llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx
+2025-07-12T15:22:07.895Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-12T15:22:35.453Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-12T15:22:36.146Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-12T15:22:36.147Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-12T15:22:36.148Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-12T15:24:11.390Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:24:14.992Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:24:45.403Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:24:54.445Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:00.861Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:06.322Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:08.634Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:11.151Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:16.134Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:20.955Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:25.367Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:32.414Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:32.749Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:34.255Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:25:35.811Z CLI info [local:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  initSession: localIdentifier=Jul_12_2052_DESKTOP-IH2NBIV_hh21 pid=8740
+2025-07-12T15:28:19.965Z CLI info [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Received graceful signal termination, performing cleanup
+2025-07-12T15:28:19.969Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-12T15:28:20.915Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-12T15:28:21.055Z CLI info [testhub:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  stopBuild: llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx request={"finished_at":"2025-07-12T15:28:19.967Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-12T15:28:21.078Z CLI info [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:28:21.080Z CLI error [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-12T15:28:21.083Z CLI info [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:28:21.084Z CLI error [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-12T15:28:21.765Z CLI error [testhub:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  stopBuild: request={"finished_at":"2025-07-12T15:28:20.914Z","finished_metadata":[],"custom_metadata":null} error=HTTPError: Response code 401 (Unauthorized)
+    at _0x28398e.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12T15:28:21.765Z CLI error  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  error invoking callback for eventName: {"name":"HTTPError","code":"ERR_NON_2XX_3XX_RESPONSE","timings":{"start":1752334100923,"socket":1752334100924,"lookup":1752334100925,"connect":1752334101189,"secureConnect":1752334101474,"upload":1752334101474,"response":1752334101759,"end":1752334101759,"phases":{"wait":1,"dns":1,"tcp":264,"tls":285,"request":0,"firstByte":285,"download":0,"total":836}}}
+2025-07-12T15:28:21.765Z CLI error  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  HTTPError: Response code 401 (Unauthorized)
+    at _0x28398e.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12T15:28:21.769Z CLI info  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-12T15:28:21.775Z CLI info [observability:module]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Visit https://observability.browserstack.com/builds/llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx to view build report, insights, and many more debugging information all at one place!
+2025-07-12T15:28:21.799Z CLI info [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:28:21.799Z CLI error [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-12T15:28:21.806Z CLI info [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-12T15:28:21.807Z CLI error [main]  [sreeramchandrase_cZsX8z]  [llatqlkqtuwbo7gy98wwsayb6cq4v1svectrd9xx]  [7cb0c3b2-a843-40df-80ff-7f66d518852d]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
