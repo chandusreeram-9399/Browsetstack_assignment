@@ -7,3 +7,5 @@ pytest-variables
 pytest-selenium
 browserstack-sdk
 pytest-html==3.2.0
+playwright
+requests
