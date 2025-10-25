@@ -1,5 +1,5 @@
-userName: kimjuang_5agwbY
-accessKey: v6N1zv5VhHxcVmAxqp4y
+userName: ojasgambeera_bOmi9j
+accessKey: KBg2YNEyFgWsaGHavsN6
 framework: pytest
 platforms:
   - os: Windows
@@ -15,6 +15,6 @@ platforms:
     browserName: Chrome
     browserVersion: 130.0
 parallelsPerPlatform: 5
-browserstackLocal: true
+browserstackLocal: false
 buildName: chandra-sekhar-builder
 projectName: BrowserStack-SDE-CE
